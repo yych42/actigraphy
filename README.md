@@ -1,15 +1,10 @@
-# actigraphy
+# Actigraphy
 
-A new flutter plugin project.
+A plugin for retrieving historical activity status stored by iOS and Android.
 
-## Getting Started
+For iOS, this plugin uses [CMMotionActivityManager](https://developer.apple.com/documentation/coremotion/cmmotionactivitymanager).
+For Android, this plugin uses [Activity Recognition Transition API](https://developers.google.com/android/reference/com/google/android/gms/location/ActivityRecognitionClient).
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## How to use
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+This plugin is under development. Please do not try to use just yet. If this is something you need, feel free to contribute or hit the Watch button.

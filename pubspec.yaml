@@ -1,5 +1,5 @@
 name: actigraphy
-description: A new flutter plugin project.
+description: A plugin for retrieving historical activity status stored by iOS and Android.
 version: 0.0.1
 homepage:
 
@@ -27,11 +27,12 @@ flutter:
   # adding or updating assets for this project.
   plugin:
     platforms:
-      android:
-        package: com.example.actigraphy
-        pluginClass: ActigraphyPlugin
       ios:
         pluginClass: ActigraphyPlugin
+      # TODO: uncomment after implementing android support
+      # android:
+      #   package: com.example.actigraphy
+      #   pluginClass: ActigraphyPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
